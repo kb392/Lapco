@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lapco</string>
+    <string name="action_settings">Настройки</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+    <string name="clear">Очистить</string>
+    <string name="saved">Файл записан</string>
+    <string-array name="distances_array">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1500</item>
+        <item>произвольная</item>
+        </string-array>
+    <string name="custom">произвольная</string>
+    
+    <string-array name="poollen_array">
+        <item>25</item>
+        <item>50</item>
+        </string-array>
+   <string name="save_tsv">Сохранить как tsv</string>
+   <string name="save_csv">Сохранить как csv</string>
+   <string name="save_ods">Сохранить как ods</string>
+   <string name="save_bb">Сохранить как bb code</string>
+   <string name="save_cleare">Очистить</string>
+   <string name="exit">Выход</string>
+   <string name="preferences">Настройки</string>
+   <string name="savepref_title">Настройки записи</string>
+   <string name="savepref_summary">Настройки записи файлов с результатами</string>
+   <string name="autosavetsv">Автоматически записывать файл с результатами в папку Android/data/ru.swimming.forum.Lapco/files</string>
+   <string name="autosave">Автосохранение</string>
+   <string name="autosavetypes">Типы файлов автосохранения</string>
+   
+   
+   
+   <string name="video_summary">Записывать видео заплыва</string>
+   <string name="video_title">Видео</string>
+   <string name="menu_video_start">Начать запись видео</string>
+   <string name="menu_video_stop">Остановить запись видео</string>
+   <string name="video_stop_delay">Стоп запись задержка</string>
+   <string name="video_stop_delay_summary">Продолжает записывать видео столько секунд после финиша</string>
+   
+   <string name="video">Видео</string>
+   <string name="lap">Круг</string>
+   <string name="distance">Дистанция</string>
+   <string name="distance_time">Время дистанции</string>
+   <string name="lap_time">Время круга</string>
+   
+   <string name="distpref_title">Настройки дистации</string>
+   <string name="distpref_summary" >Длина бассейна и дистанция</string>
+   
+   <string name="laplen_title">Длина бассейна</string>
+   <string name="laplen_summary" >Длина бассейна, половина длины круга</string>
+   <string name="custdist_title">Произвольная дистанция</string>
+   <string name="custdist_summary">Это значение используется при выборе произвольной дистанции в главном окне</string>
+   <string name="dstfolder_summary">Папка для записи результатов и видео</string>
+   <string name="dstfolder_title">Папка назначения</string>
+   <string name="videopref_title">Настройки видео</string>
+   <string name="videopref_summary" >Настройки записи видео</string>
+   <string name="videosize_title">Video preview size</string>
+   <string name="videosize_summary">tuning option for developer</string>
+   <string name="interface_title">Интерфейс</string>
+   <string name="interface_summary">Настройки интерфейса</string>
+   <string name="minlap_title">Мин. время круга</string>
+   <string name="minlap_summary">Время в секундах в течении которого нажатие на кнопку круга будет считаться ошибочным</string>
+   <string name="fullscreen_summary">Во время записи видео переключаться в полноэкранный режим</string>
+   <string name="fullscreen_title">Fullscreen</string>
+   <string name="custstyle_title">Произвольный стиль</string>
+   <string name="custstyle_summary">Будет использоваться в названии файла вместо стиля соревнований</string>
+   
+</resources>

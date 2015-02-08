@@ -1,0 +1,2 @@
+C:\Users\User\AndroidstudioProjects\Lapco\app\build\intermediates\classes\debug
+C:\Users\User\AndroidstudioProjects\Lapco\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-48aa493bf38bbc7b45725ab653f8f095ed1fe63a.jar

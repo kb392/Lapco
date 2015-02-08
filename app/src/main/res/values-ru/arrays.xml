@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="separator">
+        <item>табулятор</item>
+        <item>запятая (,)</item>
+        <item>точка с запятой (;)</item>
+        <item>пробел ( )</item>
+    </string-array>
+
+    <string-array name="swimming_pool_len">
+        <item>25м короткая вода</item>
+        <item>50м длинная вода</item>
+        <item>12,5м половина короткой</item>
+    </string-array>
+
+    <string-array name="swimming_style">
+        <item>Вольный</item>
+        <item>На спине</item>
+        <item>Брас</item>
+        <item>Баттерфляй</item>
+        <item>Комплекс</item>
+    </string-array>
+    
+</resources>

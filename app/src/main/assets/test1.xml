@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyDoc xmlns:lapco="http://forum.swimming.ru/Lapco" >
+
+    <aaa lapco:id="headrow" >
+111
+    </aaa>
+
+    <lapco:aaa lapco:id="headrow" >
+222
+    </lapco:aaa>
+
+    <lapco:aaa>
+
+        <lapco:aaa>
+333
+        </lapco:aaa>
+444
+    </lapco:aaa>
+
+</MyDoc>

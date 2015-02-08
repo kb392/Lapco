@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menu_group_video" >
+        <item
+            android:id="@+id/menu_video_start"
+            android:title="@string/menu_video_start">
+        </item>
+        <item
+            android:id="@+id/menu_video_stop"
+            android:title="@string/menu_video_stop">
+        </item>
+    </group>
+    <group android:id="@+id/menu_group_save" >
+        <item
+            android:id="@+id/menu_save_csv"
+            android:title="@string/save_csv">
+        </item>
+        <item
+            android:id="@+id/menu_save_tsv"
+            android:title="@string/save_tsv">
+        </item>
+        <item
+            android:id="@+id/menu_save_ods"
+            android:title="@string/save_ods">
+        </item>
+        <item
+            android:id="@+id/menu_save_bb"
+            android:title="@string/save_bb">
+        </item>
+        <item
+            android:id="@+id/menu_save_cleare"
+            android:title="@string/save_cleare">
+        </item>
+    </group>
+    <item android:id="@+id/menu_group_test"
+        android:title="fullscreen" >
+        <menu>
+        <item
+            android:id="@+id/menu_test_fullscreen_on"
+            android:title="fullscreen_on">
+        </item>
+        <item
+            android:id="@+id/menu_test_fullscreen_off"
+            android:title="fullscreen_off">
+        </item>
+        </menu>
+    </item>
+    <group>
+        <item
+            android:id="@+id/menu_pref"
+            android:title="@string/preferences">
+        </item>
+        <item
+            android:id="@+id/menu_exit"
+            android:title="@string/exit">
+        </item>
+    </group>
+
+</menu>

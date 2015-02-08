@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lapco</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="clear">Clear</string>
+    <string name="saved">File saved</string>
+    <string-array name="distances_array">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1500</item>
+        <item>custom</item>
+        </string-array>
+    <string name="custom">custom</string>
+    
+    <string-array name="poollen_array">
+        <item>25</item>
+        <item>50</item>
+   </string-array>
+   
+   <string name="save_tsv">Save as tsv</string>
+   <string name="save_csv">Save as csv</string>
+   <string name="save_ods">Save as ods</string>
+   <string name="save_bb">Save as bb code</string>
+   <string name="save_cleare">Cleare</string>
+   
+   <string name="autosate_type">Autosave file type</string>
+   <string name="autosate_type_summary">Field separator in autosave results file</string>
+   <string name="exit">Exit</string>
+   <string name="preferences">Options</string>
+   <string name="savepref_title">Save options</string>
+   <string name="savepref_summary">Options for tuning result files</string>
+   
+   <string name="autosavetsv">Autosave tsv file</string>
+   <string name="autosave">Autosave</string>
+   <string name="autosavetypes">Autosave file types</string>
+   <string name="autosavefiletypes_summary">Autosave file types summary</string>
+   <string name="autosavefiletypes_title" >Autosave file types</string>
+   
+   <string name="autosave_sep_title" >csv or tsv</string>
+   <string name="autosave_sep_summary" >txt file with coma, space or tab separated values</string>
+   <string name="autosave_ods_title" >ods</string>
+   <string name="autosave_ods_summary" >OpenDocument spreadsheet. Use LibreOffice on PC and OpenDocumentViewer on android</string>
+   <string name="autosave_bb_title" >bb</string>
+   <string name="autosave_bb_summary" >BB-coded table for copy and paste to forum.swimming.ru</string>
+   <string name="autosave_html_title" >html</string>
+   <string name="autosave_html_summary" >html-coded table</string>
+   <string name="autosave_sub_title" >Sub</string>
+   <string name="autosave_sub_summary" >Subtitles in SubViewer format</string>
+   
+   
+   <string name="csvsepstr_title">sep in csv file</string>
+   <string name="csvsepstr_summary">Write sep=; in csv file for some verions MSExcel compatibility</string>
+   
+   <string name="video">Video</string>
+   <string name="video_summary">Save video</string>
+   <string name="video_title">Video</string>
+   <string name="menu_video_start">Start video</string>
+   <string name="menu_video_stop">Stop video</string>
+   <string name="video_stop_delay">Video autostop delay</string>
+   <string name="video_stop_delay_summary">Time to keep recording video after last loop in ms</string>
+   <string name="lap">Lap</string>
+   <string name="distance">Distance</string>
+   <string name="distance_time">Distance time</string>
+   <string name="lap_time">Lap time</string>
+   
+   <string name="distpref_title">Distance options</string>
+   <string name="distpref_summary" >Swimmingpool length and distance</string>
+   
+   <string name="laplen_title">Swimmingpool length </string>
+   <string name="laplen_summary" >Swimmingpool length, half lap length</string>
+   <string name="custdist_title">Custom distance</string>
+   <string name="custdist_summary">This value used, when you chek custom distance on main screen</string>
+   <string name="dstfolder_summary">Destination folder for results and videos</string>
+   <string name="dstfolder_title">Destination folder</string>
+   <string name="videopref_title">Video options</string>
+   <string name="videopref_summary" ></string>
+   <string name="videosize_title">Video preview size</string>
+   <string name="videosize_summary">tuning option for developer</string>
+   <string name="interface_title">Interface</string>
+   <string name="interface_summary">Interface prefernces</string>
+   <string name="minlap_title">Min. lap time</string>
+   <string name="minlap_summary">Ignore button if lap time in seconds is smaller then this value</string>
+   <string name="app_folder_name">Lapco</string>
+   <string name="fullscreen_summary">Change to fullscreen mode while saving video</string>
+   <string name="custstyle_title">Custom style</string>
+   <string name="custstyle_summary">Custom file name prefix</string>
+   
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="separator">
+        <item>tab</item>
+        <item>comma (,)</item>
+        <item>semicolon (;)</item>
+        <item>space ( )</item>
+    </string-array>
+
+    <string-array name="separatorval">
+        <item>{tab}</item>
+        <item>,</item>
+        <item>;</item>
+        <item>&#032;</item>
+    </string-array>
+    
+    <string-array name="swimming_pool_len">
+        <item>25</item>
+        <item>50</item>
+        <item>25/2</item>
+    </string-array>
+    
+<!-- круг. два бассейна  -->
+
+    <string-array name="swimming_pool_laplen_val">
+        <item>50</item>
+        <item>100</item>
+        <item>25</item>
+        </string-array>
+    
+    <string-array name="dstfolder">
+        <item>Application default</item>
+        <item>Lapco folder on SD</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="dstfolderval">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    
+        <string-array name="swimming_style">
+        <item>Freestyle</item>
+        <item>Backstroke</item>
+        <item>Breaststroke</item>
+        <item>Butterfly</item>
+        <item>Medley</item>
+    </string-array>
+    
+    <string-array name="file_ext">
+        <item>csv</item>
+        <item>bb</item>
+        <item>html</item>
+        <item>sub</item>
+    </string-array>
+</resources>

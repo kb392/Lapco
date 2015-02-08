@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:key="distpref"
+        android:summary="@string/distpref_summary"
+        android:title="@string/distpref_title" >
+        <ListPreference
+            android:defaultValue="50"
+            android:entries="@array/swimming_pool_len"
+            android:entryValues="@array/swimming_pool_laplen_val"
+            android:key="laplen"
+            android:summary="@string/laplen_summary"
+            android:title="@string/laplen_title" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:inputType="number"
+            android:key="custdist"
+            android:summary="@string/custdist_summary"
+            android:title="@string/custdist_title" />
+        
+        <EditTextPreference
+            android:defaultValue="swimm"
+            android:inputType="text"
+            android:key="custstyle"
+            android:summary="@string/custstyle_summary"
+            android:title="@string/custstyle_title" />
+       
+        </PreferenceScreen>
+    <PreferenceScreen
+        android:key="savepref"
+        android:summary="@string/savepref_summary"
+        android:title="@string/savepref_title" >
+        <CheckBoxPreference
+            android:key="autosavetsv"
+            android:summary="@string/autosavetsv"
+            android:title="@string/autosave" >
+        </CheckBoxPreference>
+        
+        <PreferenceScreen
+        	android:key="autosavefiletypes"
+        	android:summary="@string/autosavefiletypes_summary"
+        	android:title="@string/autosavefiletypes_title" >
+          	<CheckBoxPreference
+            	android:key="autosave_txt"
+            	android:summary="save txt file"
+            	android:title="txt" >
+        	</CheckBoxPreference>
+          	<CheckBoxPreference
+            	android:key="autosave_ods"
+            	android:summary="@string/autosave_ods_summary"
+            	android:title="@string/autosave_ods_title" >
+        	</CheckBoxPreference>
+          	<CheckBoxPreference
+            	android:key="autosave_bb"
+            	android:summary="@string/autosave_bb_summary"
+            	android:title="@string/autosave_bb_title" >
+        	</CheckBoxPreference>
+          	<CheckBoxPreference
+            	android:key="autosave_html"
+            	android:summary="@string/autosave_html_summary"
+            	android:title="@string/autosave_html_title" >
+        	</CheckBoxPreference>
+          	<CheckBoxPreference
+            	android:key="autosave_sub"
+            	android:summary="@string/autosave_sub_summary"
+            	android:title="@string/autosave_sub_title" >
+        	</CheckBoxPreference>
+          				
+        </PreferenceScreen>
+        
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/separator"
+            android:entryValues="@array/separatorval"
+            android:key="autosave_type"
+            android:summary="@string/autosate_type_summary"
+            android:title="@string/autosate_type" />
+
+        <CheckBoxPreference
+            android:key="csvsepstr"
+            android:summary="@string/csvsepstr_summary"
+            android:title="@string/csvsepstr_title" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/dstfolder"
+            android:entryValues="@array/dstfolderval"
+            android:key="dstfolder_type"
+            android:summary="@string/dstfolder_summary"
+            android:title="@string/dstfolder_title" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="videopref"
+        android:summary="@string/videopref_summary"
+        android:title="@string/videopref_title" >
+        <CheckBoxPreference
+            android:key="video"
+            android:summary="@string/video_summary"
+            android:title="@string/video_title" >
+        </CheckBoxPreference>
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="number"
+            android:key="videostopdelay"
+            android:summary="@string/video_stop_delay_summary"
+            android:title="@string/video_stop_delay" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="number"
+            android:key="videosize"
+            android:summary="@string/videosize_summary"
+            android:title="@string/videosize_title" />
+
+        <CheckBoxPreference
+            android:key="fullscreen"
+            android:summary="@string/fullscreen_summary"
+            android:title="@string/fullscreen_title" >
+        </CheckBoxPreference>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="interface"
+        android:summary="@string/interface_summary"
+        android:title="@string/interface_title" >
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="number"
+            android:key="minlapsec"
+            android:summary="@string/minlap_summary"
+            android:title="@string/minlap_title" />
+    </PreferenceScreen>
+
+</PreferenceScreen>
